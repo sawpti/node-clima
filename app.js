@@ -17,7 +17,7 @@ const getInfo = async(direccion) => {
         const cli = await clima.getClima(lugar.lat, lugar.lng);
         return `El clima de ${lugar.direccion} es\n  Tº Actual : ${cli.t} \n Clima: ${cli.c}`
     } catch (e) {
-        return "No se pudo dterminar el clima en " + direccion + "ERROR" + e;
+        return "No se pudo dterminar el clima en :  " + direccion + "ERROR" + e;
     }
 
 

@@ -1,5 +1,4 @@
-## Multiplicar console App
-Esta es una App para generar ingresar tareas por consola.
+Esta es una App para obtener el clima de un lugar.
 
 Ejecutar este comando
 ````
